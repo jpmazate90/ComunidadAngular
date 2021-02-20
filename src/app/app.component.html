@@ -338,8 +338,14 @@
 
   </div>
 
-  <!-- Resources -->
-  <h2>Resources</h2>
+  <!-- Resources 
+  <div *ngFor='let user of users$'>
+    <h2>{{user.nombre_completo}} -   {{user.nombre_completo}}</h2>
+  </div>-->
+  <div >
+    
+    <h2>Hola {{users$.nombreCompleto}}</h2>
+  </div>
   <p>Here are some links to help you get started:</p>
 
   <div class="card-container">
